@@ -1,0 +1,10 @@
+D:\Embedded\Morshed\AUTOSAR_Port_Driver\Debug\BrowseInfo\Os.pbi: \
+  D:\Embedded\Morshed\AUTOSAR_Port_Driver\Os.c \
+  D:\Embedded\Morshed\AUTOSAR_Port_Driver/Os.h \
+  D:\Embedded\Morshed\AUTOSAR_Port_Driver/Std_Types.h \
+  D:\Embedded\Morshed\AUTOSAR_Port_Driver/Platform_Types.h \
+  D:\Embedded\Morshed\AUTOSAR_Port_Driver/Compiler.h \
+  D:\Embedded\Morshed\AUTOSAR_Port_Driver/App.h \
+  D:\Embedded\Morshed\AUTOSAR_Port_Driver/Button.h \
+  D:\Embedded\Morshed\AUTOSAR_Port_Driver/Led.h \
+  D:\Embedded\Morshed\AUTOSAR_Port_Driver/Gpt.h
