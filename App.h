@@ -6,7 +6,7 @@
  *
  * Description: Header file for Application Tasks.
  *
- * Author: Mohamed Tarek
+ * Author: Moaaz Mansour
  ******************************************************************************/
 
 #ifndef APP_H_
