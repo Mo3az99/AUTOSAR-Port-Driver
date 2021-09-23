@@ -13,18 +13,16 @@
 #include "Button.h"
 #include "Led.h"
 #include "Dio.h"
+#include "Port.h"
 
 /* Description: Task executes once to initialize all the Modules */
 void Init_Task(void)
 {
+    /* Initialize PORT Driver */
+    Port_Init(&Port_Configuration);
     /* Initialize Dio Driver */
     Dio_Init(&Dio_Configuration);
-
-    /* Initialize LED Driver */
-    LED_init();
 	
-    /* Initialize BUTTON Driver */
-    BUTTON_init();
 }
 
 /* Description: Task executes every 20 Mili-seconds to check the button state */

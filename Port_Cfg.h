@@ -26,6 +26,15 @@
 #define PORT_CFG_AR_RELEASE_MINOR_VERSION (0U)
 #define PORT_CFG_AR_RELEASE_PATCH_VERSION (3U)
 
+/* Pre-compile option for Version Info API */
+#define PORT_VERSION_INFO_API (STD_ON)
+
+/* Pre-compile option for Development Error Detect */
+#define PORT_DEV_ERROR_DETECT (STD_ON)
+
+/* Pre-compile option for pin direction enable */
+#define PORT_SET_PIN_DIRECTION_API (STD_ON)
+
 /* Default configuration for Port_PinConfigType*/
 #define Port_PinDefaultCfg(port_num, pin_num) port_num, pin_num, PORT_PIN_OUT, PORT_PIN_MODE_DIO, PORT_PIN_LEVEL_LOW, FALSE, FALSE, OFF
 
@@ -42,7 +51,6 @@
 #define Port_F_Cfg Port_PinDefaultCfg(5, 38), Port_PinCfg1(5, 39), Port_PinDefaultCfg(5, 40), Port_PinDefaultCfg(5, 41), Port_PinCfg2(5, 42)
 
 // /* Pre-compile option for Development Error Detect */
-// #define PORT_DEV_ERROR_DETECT (STD_ON)
 
 // /* Pre-compile option for Version Info API */
 // #define PORT_VERSION_INFO_API (STD_OFF)
